@@ -1,0 +1,80 @@
+.img{
+  /* Full height */
+  height: 50%;
+  width : 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.from{
+	padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 auto; /* Center the container horizontally */
+    margin-top:12%;
+    width: 50%; 
+    background-color :#f9f9f9;
+	
+}
+.from > button{
+	width: 100%;
+	margin: auto;
+	margin-top:2cap;
+	padding:5px;
+}
+.ig{
+	width:101px;
+	height: 100px;
+}
+#login{
+	  margin-right:3cap;
+}
+#content{
+       margin: 100px;
+       font-size: 1000px
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	width: 100px;
+    height: 50px;
+   font-size: 14px;
+   padding: 5px; /* Decreases size by adding internal space */
+   margin-left: -50px;
+   transform: scale(0.9);
+   line-height: 1;
+   position: relative;
+    right: -50px  ; 
+    right: -50px; 
+    opacity: 0.5;   
+}
