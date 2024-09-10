@@ -94,4 +94,7 @@ public class UserController {
 	public ModelAndView listForm() {
 		return new ModelAndView("User/listForm");
 	}
+	@GetMapping("/msfa")
+	public void ind(){
+		System.out.prinlt("hel");
 }
